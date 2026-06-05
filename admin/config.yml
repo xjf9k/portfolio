@@ -2,18 +2,28 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "images" # Сюда будут загружаться фотографии, если понадобятся
+media_folder: "images"
 public_folder: "/images"
 
 collections:
-  - name: "pages"
-    label: "Страницы"
+  - name: "content"
+    label: "Контент сайта"
+    delete: false
+    editor:
+      preview: false
     files:
-      - file: "index.html"
-        label: "Главная страница"
-        name: "home"
+      - file: "portfolio.json"
+        label: "Главная страница и видео"
+        name: "portfolio"
         fields:
-          - {label: "Ваше Имя", name: "title", widget: "string"}
+          - {label: "Ваше Имя", name: "name", widget: "string"}
           - {label: "Профессия", name: "subtitle", widget: "string"}
           - {label: "О себе", name: "bio", widget: "text"}
           - {label: "Ссылка на Яндекс/Google Диск", name: "disk_link", widget: "string"}
+          - label: "Список видеороликов (Портфолио)"
+            name: "videos"
+            widget: "list"
+            fields:
+              - {label: "Название видео", name: "title", widget: "string"}
+              - {label: "Описание", name: "description", widget: "text"}
+              - {label: "Ссылка на видео (YouTube / Vimeo / Диск)", name: "video_url", widget: "string"}
