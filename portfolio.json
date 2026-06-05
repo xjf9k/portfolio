@@ -1,20 +1,20 @@
 {
+  "photos": [
+    {
+      "title": "Спортивный кадр",
+      "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800"
+    }
+  ],
+  "bg_color": "#2a1cba",
   "name": "Ержанов Ерболат",
-  "subtitle": "Видеооператор & Монтажер",
-  "bg_color": "#0a0a0a",
   "about": "Привет! Я профессиональный видеограф. Специализируюсь на динамичной съемке спортивных мероприятий, создании атмосферных подкастов, интервью и сложных выездных проектах. Полный цикл: от идеи до финального монтажа.",
-  "disk_link": "https://disk.yandex.ru",
+  "gear": "Камеры: Sony FX3, Sony A7IV. Свет: Aputure 300d. Звук: DJI Mic 2, Zoom H6.",
+  "subtitle": "Видеооператор & Монтажер",
   "videos": [
     {
       "title": "Чемпионат по футболу",
       "description": "Динамичный репортаж, съемка в движении.",
       "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    }
-  ],
-  "photos": [
-    {
-      "title": "Спортивный кадр",
-      "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800"
     }
   ],
   "projects": [
@@ -23,5 +23,5 @@
       "description": "Полное видеосопровождение сезона: от промо-роликов до трансляций матчей."
     }
   ],
-  "gear": "Камеры: Sony FX3, Sony A7IV. Свет: Aputure 300d. Звук: DJI Mic 2, Zoom H6."
+  "disk_link": "https://disk.yandex.ru"
 }
