@@ -13,17 +13,36 @@ collections:
       preview: false
     files:
       - file: "portfolio.json"
-        label: "Главная страница и видео"
+        label: "Управление всеми разделами"
         name: "portfolio"
         fields:
           - {label: "Ваше Имя", name: "name", widget: "string"}
           - {label: "Профессия", name: "subtitle", widget: "string"}
-          - {label: "О себе", name: "bio", widget: "text"}
-          - {label: "Ссылка на Яндекс/Google Диск", name: "disk_link", widget: "string"}
-          - label: "Список видеороликов (Портфолио)"
+          - {label: "Цвет фона сайта (выберите темный)", name: "bg_color", widget: "color"}
+          
+          - {label: "Раздел: О нас (Текст)", name: "about", widget: "text"}
+          
+          - label: "Раздел: Видео"
             name: "videos"
             widget: "list"
             fields:
               - {label: "Название видео", name: "title", widget: "string"}
               - {label: "Описание", name: "description", widget: "text"}
-              - {label: "Ссылка на видео (YouTube / Vimeo / Диск)", name: "video_url", widget: "string"}
+              - {label: "Ссылка на видео (YouTube/Vimeo)", name: "video_url", widget: "string"}
+              
+          - label: "Раздел: Фото"
+            name: "photos"
+            widget: "list"
+            fields:
+              - {label: "Название фото", name: "title", widget: "string", required: false}
+              - {label: "Загрузить Фотографию", name: "image", widget: "image"}
+              
+          - label: "Раздел: Проекты (Кейсы)",
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Название проекта", name: "title", widget: "string"}
+              - {label: "Что было сделано (описание)", name: "description", widget: "text"}
+              
+          - {label: "Раздел: Оборудование (Техника)", name: "gear", widget: "text"}
+          - {label: "Ссылка на Яндекс/Google Диск", name: "disk_link", widget: "string"}
