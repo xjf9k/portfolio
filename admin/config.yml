@@ -18,7 +18,9 @@ collections:
         fields:
           - {label: "Ваше Имя", name: "name", widget: "string"}
           - {label: "Профессия", name: "subtitle", widget: "string"}
-          - {label: "Цвет фона сайта (выберите темный)", name: "bg_color", widget: "color"}
+          - {label: "Цвет фона (если нет картинки)", name: "bg_color", widget: "color"}
+          - {label: "Фоновое изображение сайта", name: "bg_image", widget: "image", required: false}
+          
           - {label: "Раздел: О нас (Текст)", name: "about", widget: "text"}
           
           - label: "Раздел: Видео"
