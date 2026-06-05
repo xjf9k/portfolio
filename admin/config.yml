@@ -19,7 +19,6 @@ collections:
           - {label: "Ваше Имя", name: "name", widget: "string"}
           - {label: "Профессия", name: "subtitle", widget: "string"}
           - {label: "Цвет фона сайта (выберите темный)", name: "bg_color", widget: "color"}
-          
           - {label: "Раздел: О нас (Текст)", name: "about", widget: "text"}
           
           - label: "Раздел: Видео"
@@ -37,7 +36,7 @@ collections:
               - {label: "Название фото", name: "title", widget: "string", required: false}
               - {label: "Загрузить Фотографию", name: "image", widget: "image"}
               
-          - label: "Раздел: Проекты (Кейсы)",
+          - label: "Раздел: Проекты (Кейсы)"
             name: "projects"
             widget: "list"
             fields:
