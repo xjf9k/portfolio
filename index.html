@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Видеооператора & Монтажера</title>
+    <!-- Подключение стилей и шрифтов -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #e5e5e5; }
+    </style>
+</head>
+<body class="selection:bg-neutral-800 selection:text-white">
+
+    <!-- Шапка / Главный экран -->
+    <header class="max-w-5xl mx-auto px-6 pt-20 pb-12 border-b border-neutral-900">
+        <h1 class="text-4xl font-semibold tracking-tight text-white mb-2">Ержанов Ерболат</h1>
+        <p class="text-neutral-400 text-lg mb-6">Видеооператор & Монтажер</p>
+        <p class="text-neutral-500 max-w-2xl leading-relaxed">
+            Специализируюсь на динамичной съемке спортивных мероприятий, создании атмосферных подкастов, интервью и сложных выездных проектах. Полный цикл: от идеи до финального монтажа и цветокоррекции.
+        </p>
+    </header>
+
+    <!-- Сетка Портфолио -->
+    <main class="max-w-5xl mx-auto px-6 py-16">
+        <h2 class="text-xl font-semibold text-white mb-8 tracking-wider uppercase text-sm text-neutral-400">Избранные работы</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Проект 1 (Спорт) -->
+            <div class="group">
+                <div class="relative overflow-hidden rounded-lg bg-neutral-900 aspect-video mb-4 border border-neutral-800">
+                    <!-- Встроенный плеер. Просто вставьте ссылку вместо src -->
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3 class="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">Чемпионат по шоссейному автоспорту</h3>
+                <p class="text-sm text-neutral-500 mt-1">Динамичный репортаж, съемка в движении, Sound Design.</p>
+            </div>
+
+            <!-- Проект 2 (Подкаст) -->
+            <div class="group">
+                <div class="relative overflow-hidden rounded-lg bg-neutral-900 aspect-video mb-4 border border-neutral-800">
+                    <!-- Пример плеера из Vimeo или Яндекс/Google Диска (через iframe) -->
+                    <iframe class="w-full h-full" src="https://player.vimeo.com/video/76979871" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3 class="text-lg font-medium text-white group-hover:text-neutral-300 transition-colors">Студийный подкаст «Pro Сверхвозможности»</h3>
+                <p class="text-sm text-neutral-500 mt-1">Выездная съемка на 3 камеры, постановка света, чистый многоканальный звук.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Ссылка на диск и Контакты -->
+    <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-neutral-900 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+            <h4 class="text-white font-medium mb-1">Нужен исходный материал?</h4>
+            <p class="text-sm text-neutral-500">Вы можете скачать или посмотреть полные архивы съемок напрямую.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+            <!-- Кнопка на Облако/Диск -->
+            <a href="https://disk.yandex.ru" target="_blank" class="px-6 py-3 bg-neutral-900 border border-neutral-800 rounded-md text-sm font-medium hover:bg-neutral-800 hover:text-white transition-all">
+                📁 Открыть Яндекс.Диск
+            </a>
+            <!-- Контакт -->
+            <a href="https://t.me/kinopartizan" target="_blank" class="px-6 py-3 bg-white text-black rounded-md text-sm font-medium hover:bg-neutral-200 transition-all">
+                Связаться в Telegram
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
