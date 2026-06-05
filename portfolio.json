@@ -1,0 +1,18 @@
+{
+  "name": "Ержанов Ерболат",
+  "subtitle": "Видеооператор & Монтажер",
+  "bio": "Специализируюсь на динамичной съемке спортивных мероприятий, создании атмосферных подкастов, интервью и сложных выездных проектах.",
+  "disk_link": "https://disk.yandex.ru",
+  "videos": [
+    {
+      "title": "Чемпионат по автоспорту",
+      "description": "Динамичный репортаж, съемка в движении, Sound Design.",
+      "video_url": "https://youtu.be/AkxdYWt9M2o?si=IhO3XWn7mo5gGKLt"
+    },
+    {
+      "title": "Студийный подкаст",
+      "description": "Выездная съемка на 3 камеры, постановка света.",
+      "video_url": "https://youtu.be/8QuVL8RW97w?si=BHzZvf03wvKYjhGq"
+    }
+  ]
+}
